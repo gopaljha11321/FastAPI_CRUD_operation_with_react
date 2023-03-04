@@ -1,0 +1,41 @@
+#container1
+{
+    position: absolute;
+    width:400px;
+    height:400px;
+    display: flex;
+    z-index: 200;
+    right:0px;
+    margin: 10px;
+    box-shadow: 2px 0 1px  purple,0 2px 5px skyblue;
+    background-color: white;
+    border-radius: 10px;
+    color:skyblue;
+
+}
+.btn1:hover
+{
+    background-color: whitesmoke;
+}
+#edit_image
+{
+    height: 110px;
+    border-radius: 80px;
+    /* cursor: pointer; */
+    width:130px;
+    position: relative;
+    /* clip-path: ellipse(100%); */
+    top:-65px;
+    opacity: 0.5;
+    background-color: white;
+    z-index: 300;
+}
+#inputWrapper
+{
+    overflow: hidden;
+    position: relative;
+    top:-30px;
+    height:70px;
+    cursor: pointer;
+    z-index: 400;
+}
